@@ -27,10 +27,6 @@ section .pass{
     border-radius: 50px;
     margin-bottom: 30px;
     box-shadow: 0 0 20px 3px rgb(0 0 0 / 50%);
-    img{
-        width: 25px;
-        cursor: pointer;
-    }
     input{
         border: none;
         width: 90%;
@@ -48,6 +44,10 @@ section .pass{
     p{
         text-align: center;
     }
+}
+section .pass img{
+    width: 25px;
+    cursor: pointer;
 }
 section h2{
     margin-bottom: 2px;
