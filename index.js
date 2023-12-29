@@ -1,6 +1,6 @@
 let passBox = document.getElementById("password");
 let but = document.getElementById('pg')
-let copy = document.querySelector('i')
+let copy = document.querySelector('img')
 let lenght = 12;
 let upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let lowerCase = "abcdefghijklmnopqrstuvwxyz";

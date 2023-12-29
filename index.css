@@ -27,9 +27,8 @@ section .pass{
     border-radius: 50px;
     margin-bottom: 30px;
     box-shadow: 0 0 20px 3px rgb(0 0 0 / 50%);
-    i{
-        color: #019f55;
-        font-size: 1.8em;
+    img{
+        width: 25px;
         cursor: pointer;
     }
     input{
