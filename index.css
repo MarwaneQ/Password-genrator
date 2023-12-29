@@ -27,14 +27,6 @@ section .pass{
     border-radius: 50px;
     margin-bottom: 30px;
     box-shadow: 0 0 20px 3px rgb(0 0 0 / 50%);
-    input{
-        border: none;
-        width: 90%;
-        height: 100%;
-        font-size: 1.5em;
-        outline: none;
-        
-    }
 }
 @media (max-width: 520px ) {
     section .pass{
@@ -44,6 +36,14 @@ section .pass{
     p{
         text-align: center;
     }
+}
+input[type="text"]{
+    border: none;
+    width: 90%;
+    height: 100%;
+    font-size: 1.5em;
+    outline: none;
+    
 }
 section .pass img{
     width: 25px;
