@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #002339;
+    color: white;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    padding: 20px;
+}
+section .pass{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 80px;
+    background-color: white;
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 50%);
+    i{
+        color: #019f55;
+        font-size: 1.8em;
+        cursor: pointer;
+    }
+    input{
+        border: none;
+        width: 90%;
+        height: 100%;
+        font-size: 1.5em;
+        outline: none;
+        
+    }
+}
+@media (max-width: 520px ) {
+    section .pass{
+        width: 90%;
+        
+    }
+    p{
+        text-align: center;
+    }
+}
+section h2{
+    margin-bottom: 2px;
+    font-size: 3em;
+    padding: 10px;
+}
+section p{
+    margin-bottom: 30px;
+    font-size: 3.5em;
+    padding: 10px;
+    border-bottom: solid 4px #019f55;
+    color: #019f55;
+}
+section button{
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: #019f55;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+}
